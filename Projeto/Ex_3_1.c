@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 #define texto "Entrada e saida de dados." 
 
 int main(){
@@ -22,4 +22,5 @@ int main(){
 	printf("Idade: %d.\n", idade);
 	printf("Altura: %.2f.\n", altura);
 	printf("Nome: %s.\n", nome);
+	return 0;
 }
